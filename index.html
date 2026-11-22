@@ -10,8 +10,11 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}body{padding-top:86px}body{font-family:Inter,system-ui,Arial,sans-serif;background:#FDF8EE;color:#1A2B2B;line-height:1.6}
 a{color:inherit;text-decoration:none}
-.top{min-height:calc(100vh - 86px);display:flex;flex-direction:column;background:radial-gradient(900px 480px at 85% 0%, rgba(255,255,255,.75) 0%, transparent 60%),linear-gradient(115deg,#FDF8EE 0%, #F5EAD0 35%, #EAD9B8 65%, #DCC9A0 100%);position:relative;overflow:hidden;color:#0A2540}
-header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;gap:16px;flex-wrap:wrap;background:rgba(253,248,238,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(10,37,64,.08);box-shadow:0 4px 20px rgba(10,37,64,.06)}
+.top{min-height:calc(100vh - 86px);display:flex;flex-direction:column;background:linear-gradient(90deg, rgba(10,37,64,.88) 0%, rgba(10,37,64,.72) 45%, rgba(10,37,64,.35) 100%), url('office.jpg') center/cover no-repeat;position:relative;overflow:hidden;color:#FFFFFF}
+.top .logo-text b{color:#FFFFFF}.top .logo-text small{color:#F2C14E}.top .logo-box{border-color:#FFFFFF}
+.top .hero h1{color:#FFFFFF}.top .hero-eyebrow{color:#F2C14E}.top .static-tag{color:#F2C14E}.top .hero-desc{color:rgba(255,255,255,.92)}
+.top .badge{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.35);color:#fff;backdrop-filter:blur(6px)}
+header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;gap:16px;flex-wrap:wrap;background:rgba(10,37,64,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 4px 20px rgba(0,0,0,.25)}
 .logo{display:flex;align-items:center;gap:12px}
 .logo-box{width:58px;height:58px;min-width:58px;border-radius:16px;display:grid;place-items:center;border:2px solid #0A2540;background:transparent;overflow:hidden}
 .logo-box img{width:48px;height:48px;object-fit:contain}
@@ -19,7 +22,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-cont
 .logo-text small{font-size:10px;letter-spacing:.22em;color:#8A6D2B;font-weight:700;text-transform:uppercase}
 .header-right{display:flex;align-items:center;gap:16px}
 nav{display:flex;gap:26px;font-size:13px;font-weight:600}
-nav a:hover{color:#1B6FA8;text-decoration:underline;text-underline-offset:6px}
+nav a{color:#fff}nav a:hover{color:#F2C14E;text-decoration:underline;text-underline-offset:6px}
 .lang-switch{display:flex;background:#fff;border:1px solid #E3D5B5;border-radius:999px;overflow:hidden;font-size:12px;font-weight:700}
 .lang-switch button{border:none;background:transparent;padding:7px 12px;cursor:pointer;font-weight:700;color:#888}
 .lang-switch button.active{background:#0A2540;color:#fff}
